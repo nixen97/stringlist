@@ -10,14 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:stringlist.helloWorld"
+        "onCommand:stringlist.stringList"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "stringlist.helloWorld",
-				"title": "Hello World"
+				"command": "stringlist.stringList",
+				"title": "String list from selection"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "stringlist.stringList",
+				"key": "ctrl+shift+l",
+				"mac": "cmd+shift+l"
 			}
 		]
 	},
