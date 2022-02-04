@@ -11,6 +11,20 @@
 	"categories": [
 		"Other"
 	],
+	"bugs": {
+		"url": "https://github.com/nixen97/stringlist/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nixen97/stringlist.git"
+	},
+	"homepage": "https://github.com/nixen97/stringlist/blob/dev/README.md",
+	"keywords": [
+		"vscode",
+		"string",
+		"list",
+		"id"
+	],
 	"activationEvents": [
         "onCommand:stringlist.stringList"
 	],
