@@ -1,6 +1,5 @@
 # StringList
 
-
 ## Features
 
 Sorrounds strings with single quotes and comma separates them.
